@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyWeather.View.WeatherView"
              Title="Weather">
+             <!--
     <StackLayout Padding="10" Spacing="10">
       
       <Entry Text="{Binding Location}"/>
@@ -25,6 +26,7 @@
       <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}"/>
       
     </StackLayout>
+    -->
 </ContentPage>
 
 

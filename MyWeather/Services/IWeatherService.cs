@@ -9,10 +9,10 @@ namespace MyWeather.Services
 {
     public interface IWeatherService
     {
-        [Get("forecast/" + Constants.DARK_SKY_API_KEY + "/{latitude},{longitude}?units={units}")]
+        [Get("forecast/3b872674fe2b89f83e827166de73968a/{latitude},{longitude}?units={units}")]
         Task<DarkSky> GetForecast(double latitude, double longitude, string units = "us");
 
-        [Get("forecast/" + Constants.DARK_SKY_API_KEY + "/{latitude},{longitude},{time}?units={units}")]
+        [Get("forecast/3b872674fe2b89f83e827166de73968a/{latitude},{longitude},{time}?units={units}")]
         Task<DarkSkyTimeline> GetTimeMachine(double latitude, double longitude, long time = 0, string units = "us");
     }
 }

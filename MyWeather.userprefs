@@ -1,8 +1,9 @@
-﻿<Properties StartupConfiguration="{65B45A0F-D6D8-432F-B36D-D7D41675DC76}|Default">
+﻿<Properties StartupConfiguration="{7F106FBA-12E5-4D92-9F4C-38EAD1652E7E}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeather.Android PreferredExecutionTarget="Android.Android_Device" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather/App.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeather/View/WeatherView.xaml.cs">
     <Files>
-      <File FileName="MyWeather/App.cs" Line="1" Column="1" />
+      <File FileName="MyWeather/View/WeatherView.xaml" Line="29" Column="8" />
+      <File FileName="MyWeather/View/WeatherView.xaml.cs" Line="89" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

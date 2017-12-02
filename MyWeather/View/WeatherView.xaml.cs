@@ -12,7 +12,6 @@ namespace MyWeather.View
                 Icon = new FileImageSource { File = "tab1.png" };
 
             #region C# Code Behind View
-            /*
             var layout = new StackLayout()
             {
                 Padding = new Thickness(10),
@@ -88,7 +87,6 @@ namespace MyWeather.View
             layout.Children.Add(busy);
 
             Content = layout;
-            */
             #endregion
         }
     }
